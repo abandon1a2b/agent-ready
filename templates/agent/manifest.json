@@ -1,0 +1,27 @@
+{
+  "name": "<应用名称>",
+  "description": "<应用用途及 Agent 可完成的任务>",
+  "version": "<应用版本>",
+  "baseUrl": "<可信应用基地址，包含部署前缀>",
+  "urlResolution": "Resource URLs are relative to baseUrl; preserve its path prefix.",
+  "resources": {
+    "skill": "agent/skill",
+    "docs": "agent/docs",
+    "download": "agent/download"
+  },
+  "authentication": {
+    "mode": "<local-only、bearer、oauth 或项目实际方式>",
+    "instructions": "agent/auth",
+    "discoveryAccess": "<接入文档是否需要认证，以及如何取得初始访问权限>"
+  },
+  "tools": [
+    {
+      "type": "script-cli",
+      "url": "agent/cli.sh",
+      "description": "<可选：脚本 CLI 的用途；未实现时删除此项>",
+      "version": "<工具版本>",
+      "requires": ["<实际运行依赖>"],
+      "compatibility": "<支持的平台及应用版本>"
+    }
+  ]
+}
