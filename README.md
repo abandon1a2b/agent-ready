@@ -1,5 +1,10 @@
 # Agent Ready
 
+[![Agent Integration](https://img.shields.io/badge/Agent-Integration-2563eb)](#基本入口)
+[![Documentation](https://img.shields.io/badge/Docs-简体中文-16a34a)](#开始接入)
+[![4 Entry Points](https://img.shields.io/badge/Entry_Points-4-f59e0b)](#基本入口)
+[![Templates](https://img.shields.io/badge/Templates-Ready-0891b2)](templates/README.md)
+
 一套面向 AI Agent 的应用接入规范，帮助 Agent 快速了解应用、发现能力，并选择直接调用接口、生成客户端或安装 CLI / SDK。
 
 让 Agent 接入应用，应该有点像看菜单：知道能点什么、怎么点、是否需要先登录。最好别让它先钻进源码厨房。
